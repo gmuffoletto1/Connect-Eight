@@ -23,6 +23,12 @@ cmake --build build
 ./build/connect_eight
 ```
 
+## Run tests
+
+```sh
+ctest --test-dir build --output-on-failure
+```
+
 ## Controls
 
 - Left click a column to drop a red piece.
