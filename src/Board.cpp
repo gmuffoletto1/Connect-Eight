@@ -2,8 +2,15 @@
 
 #include <array>
 
+const int Board::ROWS;
+const int Board::COLS;
+const int Board::WIN_LEN;
+const char Board::EMPTY;
+const char Board::RED;
+const char Board::YELLOW;
+
 Board::Board()
-    : grid(ROWS, std::vector<char>(COLS, EMPTY))
+    : grid(ROWS, vector<char>(COLS, EMPTY))
 {
 }
 
